@@ -5,6 +5,11 @@ export default class SimpleComponent extends React.Component {
     super();
     this.state = { mood: 'happy' };
   }
+
+  handleOnClick(){
+    //code
+  }
+
   render() {
     return (
       <div onClick={handleOnClick}>
