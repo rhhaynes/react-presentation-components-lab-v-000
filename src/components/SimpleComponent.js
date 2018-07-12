@@ -5,4 +5,7 @@ export default class SimpleComponent extends React.Component {
     super();
     this.state = { mood: 'happy' };
   }
+  render() {
+    return <div>{this.state.mood}</div>
+  }
 }
